@@ -2,7 +2,7 @@ from google.cloud import texttospeech
 
 client= texttospeech.TextToSpeechClient()
 
-input_text= texttospeech.SynthesisInput(text="Hi! KyungwoonUniversity!")
+input_text= texttospeech.SynthesisInput(text="Hi hi hi! KyungwoonUniversity!")
 
 voice= texttospeech.VoiceSelectionParams(
     language_code="en-US",
